@@ -1,5 +1,5 @@
 # Before running
-In the `config.yaml` file you should include details of samples to be analyzed parameters for obtaining the required plots using deeptools. Refer deeptools documentation for further details (https://deeptools.readthedocs.io/en/develop/content/tools/plotHeatmap.html)
+In the `config.yaml` file you should include details of samples to be analyzed and parameters for obtaining the required plots using deeptools. Refer deeptools documentation for further details.
 
 
 ### Dependiencies
@@ -12,4 +12,5 @@ Dry run: snakemake -n
 Actual run: snakemake --cores [number of cores]
 
 Run snakemake --unlock if directory is locked
+```
 ```
