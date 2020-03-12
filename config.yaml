@@ -1,0 +1,21 @@
+# Enter sample details
+samples:
+  nrsf1: data/nrsf1.bam
+  nrsf2: data/nrsf2.bam
+
+# Parameters for correlation plot
+correlationMethod: pearson
+
+#One word
+plotTitle: nrsfreplicates
+
+plotType: heatmap
+
+
+plotName: nrsf_replicates
+
+correlationMatrix: nrsf_replicates_matrix
+
+summary_params: ""
+
+plot_params: --removeOutliers 
